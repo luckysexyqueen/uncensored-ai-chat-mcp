@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "uncensored-ai-chat": {
+      "command": "python",
+      "args": [
+        "/absolute/path/to/server.py"
+      ],
+      "env": {
+        "UNCENSORED_API_KEY": "your-api-key-here"
+      }
+    }
+  }
+}
