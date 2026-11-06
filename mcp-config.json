@@ -6,7 +6,7 @@
         "/absolute/path/to/server.py"
       ],
       "env": {
-        "UNCENSORED_API_KEY": "your-api-key-here"
+        "UNCENSORED_API_KEY": "uai_sk_live_7nhIQn3hiJ5gUdj8_tV3WJktMbSTWYOSRvKsHzENnz1ZtpZM1b13a"
       }
     }
   }
