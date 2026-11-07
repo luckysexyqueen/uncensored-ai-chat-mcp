@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: uncensored-ai-chat-mcp
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m uvicorn web:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.11
+      - key: UNCENSORED_API_KEY
+        sync: false
+      - key: MCP_ACCESS_TOKEN
+        generateValue: true
