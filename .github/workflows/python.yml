@@ -1,0 +1,9 @@
+- name: Install Python requirements
+  # You may pin to the exact commit or the version.
+  # uses: aabadie/action-install-python-requirements@bd1357189566c9678a47677d561b4b8e113d9787
+  uses: aabadie/action-install-python-requirements@v2.0.1
+  with:
+    # requirements text file
+    requirements: # default is requirements.txt
+    # Whether pip also has to be updated
+    update-pip: 
